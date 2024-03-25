@@ -1,0 +1,95 @@
+body{
+    background-color: white;
+}
+
+.header-1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0 265px;
+}
+
+.logo-container {
+    text-align: left;
+    margin-right: 48px;
+}
+
+.bar{
+    display:flex;
+    flex-direction: row;
+    text-align: center;
+    background-color: rgba(242, 242, 242, 1);
+}
+
+.catalogo{
+    display:flex;
+    flex-direction: row;
+    color: rgba(102, 102, 102, 1);
+    padding: 0 11px;
+    height: 36px;
+
+}
+
+.search{
+    display: flex;
+    flex-direction: row;
+    color: rgba(117, 117, 117, 1);
+    padding: 0 11px;
+}
+
+.rigth-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 28px;
+}
+
+.login{
+    border-radius: 2px;
+    border: #007782;
+    color: #007782;
+    padding: 0 8px;
+
+}
+
+.sell{
+    border-radius: 2px;
+    background-color: #007782;
+    color: white;
+    padding: 0 8px;
+}
+
+
+.list-info{
+    
+    text-decoration: none;
+
+    display: flex;
+    list-style: none;
+    flex-direction: row;
+}
+
+a{
+ text-decoration: none;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.nav-menu{
+    display: flex;
+    flex-direction: row;
+    margin: 0 265px;
+    padding: 0 20px;
+}
+
+.nav-item a{
+    display: flex;
+    padding: 0 16px;
+    color: rgba(117, 117, 117, 1);
+}
+
+.nav-item:hover{
+    background-color: rgba(242, 242, 242, 1);
+}
